@@ -2,8 +2,8 @@ package screenshot
 
 import (
 	"errors"
-	"github.com/kbinani/screenshot/internal/util"
-	win "github.com/lxn/win"
+	"github.com/xuchengzhi/screenshot/internal/util"
+	win "github.com/xuchengzhi/win"
 	"image"
 	"syscall"
 	"unsafe"

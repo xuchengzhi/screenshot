@@ -40,7 +40,7 @@ if [ "$GOOS" = "linux" -o "$GOOS" = "freebsd" -o "$GOOS" = "openbsd" -o "$GOOS" 
 	go get github.com/BurntSushi/xgb || exit 12
 	go get github.com/gen2brain/shm || exit 13
 elif [ "$GOOS" = "windows" ]; then
-	go get github.com/lxn/win || exit 14
+	go get github.com/xuchengzhi/win || exit 14
 fi
 
 # build example/main.go
